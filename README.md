@@ -1,6 +1,6 @@
 # Contact Lens CNN Classification
 ## Project abstract
-<p>Using the Notre Dame Contact Lens Dataset and the paper "An Efficient Contact Lens Spoofing Classification", this project tries, for learning purposes, replicate the results obtained while exploring more about convolutional neural networks and its particularities.</p>
+<p>Using the [Notre Dame Contact Lens Dataset](https://cvrl.nd.edu/projects/data/) and the paper "An Efficient Contact Lens Spoofing Classification", this project tries, for learning purposes, replicate the results obtained while exploring more about convolutional neural networks and its particularities.</p>
 
 ## Technologies
 <ul>
@@ -28,8 +28,11 @@
     <li>Pupil position and radius precision: 0.39998</li>
 </ul>
 
-<p>Below, you'll find images showcasing predictions made using the validation data.</p>
-![Prediction 1](results_images\img1.png)
-![Prediction 2](results_images\img2.png)
-![Prediction 3](results_images\img3.png)
-![Prediction 4](results_images\img4.png)
+<p>Below, you'll find images showcasing predictions made using the validation data:</p>
+
+![Prediction1](results_images/img1.png)
+![Prediction2](results_images/img2.png)
+![Prediction3](results_images/img3.png)
+![Prediction4](results_images/img4.png)
+
+<p>This code was implemented with tensorflow and can be found on 'Tensorflow_models' folder</p>
