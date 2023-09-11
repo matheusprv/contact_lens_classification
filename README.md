@@ -17,12 +17,19 @@
 <p>For this project, two distinct image datasets were utilized, both sourced from the Notre Dame Contact Lens Dataset. The only code segments employing a different version are 'pupil_localization_model_tensorflow' and 'Lens_and_pupil_identification', both implemented with TensorFlow. This adjustment was necessary because in the original dataset, the position and radius of the pupil were inaccurate.</p>
 
 ## Lens_and_pupil_identification results
-<p>The most challenge model to implemente was the one to classify wheter the eye is the left or right one, if the eye belongs to a male or female person and its race, if the person is wearing a contact lens or not and if it is for cosmetics reasons and the identification of the center of the pupil and its radius.</p>
-<p> After many attempts, the best results that I was able to achive are described in the following list:</p>
+<p>Implementing the model for identifying various attributes of the eye posed several challenges. These included determining whether the eye is on the left or right side, discerning the gender and race of the individual, as well as ascertaining if the person is wearing contact lenses, particularly for cosmetic purposes. Additionally, pinpointing the center of the pupil and its radius presented its own set of complexities.</p>
+
+<p>After numerous iterations and refinements, I achieved the following notable results:</p>
 <ul>
-    <li>Eye accuracy:                    98.50 %</li>
-    <li>Gender accuracy:                 81.83 %</li>
-    <li>Race accuracy:                   79.33 %</li>
-    <li>Contacts accuracy:               74.33 %</li>
-    <li>Pupil position and radius loss:  0.39998</li>
+    <li>Eye identification accuracy: 98.50%</li>
+    <li>Gender classification accuracy: 81.83%</li>
+    <li>Race classification accuracy: 79.33%</li>
+    <li>Contact lens detection accuracy: 74.33%</li>
+    <li>Pupil position and radius precision: 0.39998</li>
 </ul>
+
+<p>Below, you'll find images showcasing predictions made using the validation data.</p>
+![Prediction 1](results_images\img1.png)
+![Prediction 2](results_images\img2.png)
+![Prediction 3](results_images\img3.png)
+![Prediction 4](results_images\img4.png)
